@@ -15,14 +15,14 @@
       "Action": [
         "s3:GetObject"
       ],
-      "Resource": "arn:aws:s3:::[input-bucket-name]/*" 
+      "Resource": "arn:aws:s3:::lizu-input-demo/*" 
     },
     {
       "Effect": "Allow",
       "Action": [
         "s3:PutObject"
       ],
-      "Resource": "arn:aws:s3:::[output-bucket-name]/*" 
+      "Resource": "arn:aws:s3:::lizu-output-demo/*" 
     }
   ]
 }
